@@ -5,7 +5,7 @@ from PIL import Image
 
 st_title = "paper rock scissors"
 
-api_url = "http://127.0.0.1:8000/predict001"
+api_url = "http://127.0.0.1:8000/predict"
 
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "png", "jpeg"])
 
